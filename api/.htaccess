@@ -2,6 +2,6 @@
     RewriteEngine On
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteRule (.*) /var/www/tryjp.com/public_html/honyakunServer/api/router.php/$1 [L]
-	 #RewriteRule (.*) /var/www/tryjp.com/public_html/honyakunServer/api/router.html/$1 [L]
+    RewriteRule (.*) {path}/api/router.php/$1 [L]
+	 #RewriteRule (.*) {path}/api/router.html/$1 [L]
 #</Directory>
