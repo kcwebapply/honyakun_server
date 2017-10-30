@@ -1,8 +1,0 @@
-#<Directory "/var/www/tryjp.com/public_html/cruster">
-    RewriteEngine On
-    RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteRule (.*) /var/www/tryjp.com/public_html/cruster/router.php/$1 [L]
-    RewriteLog /tmp/rewrite.log
-	RewriteLogLevel 9
-#</Directory>
